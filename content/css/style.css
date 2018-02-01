@@ -34,7 +34,6 @@ body{
     position: absolute;
     z-index: 1;
     text-align: center;
-    /**/
     margin: auto;
     top: 0;
     right: 0;
@@ -56,9 +55,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*.content .bild .portrait:hover{
-    border-color: #faa500;
-}*/
 .content .text{
     margin-top: 0.5em;
 }
@@ -68,9 +64,6 @@ body{
     color: white;
     z-index: 2;
 }
-/*.content .text h1 a:hover{
-    color: #faa500;
-}*/
 .content .text p{
     color: #b3b3b3;
     z-index: 3;
@@ -126,7 +119,6 @@ body{
 .content .text ul li .fa-pinterest:hover{
     color: #cb2027;
 }
-
 .content .text ul li .fa-paypal:hover{
     color: #003087;
 }
@@ -151,8 +143,7 @@ body{
 .content .text ul li .fa-trello:hover{
     color: #0079bf;
 }
-
-/**/
+/*Animationen*/
 @keyframes fadein{
     from{
         opacity:0;
