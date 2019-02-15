@@ -29,12 +29,11 @@ body{
 }
 .content{
     margin: auto;
-    width: 30%;
+    width: 50%;
     height: 25%;
     position: absolute;
     z-index: 1;
     text-align: center;
-    margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
@@ -60,10 +59,11 @@ body{
 }
 .content .text h1 a{
     text-decoration: none !important;
-    letter-spacing: .8px;
+    letter-spacing: 1px;
     color: white;
     z-index: 2;
 }
+
 .content .text p{
     color: #b3b3b3;
     z-index: 3;
@@ -76,11 +76,24 @@ body{
 .content .text p a:hover{
     color: #faa500;
 }
+.content .text .linkList{
+    left: 4em;
+    text-align: left;
+}
 .content .text ul{
     z-index: 4;
-    padding: 0%;
+    padding: 0;
     margin-top: 0.5em;
 }
+
+.content .text ul .linkHeadline{
+    font-size: 1.2em;
+    font-weight: normal;
+    vertical-align: super;
+    color: #b3b3b3;
+    margin-right: 1em;
+}
+
 .content .text ul li{
     display:  inline;
     font-size: 2em;
@@ -96,7 +109,9 @@ body{
     color: #00aced;
 }
 .content .text ul li .fa-instagram:hover{
-    color: #458eff;
+    background: radial-gradient(circle at 33% 100%, #fed373  4%, #f15245  30%, #d92e7f  62%, #9b36b7  85%, #515ecf );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .content .text ul li .fa-github:hover{
     color: #000000;
@@ -119,6 +134,7 @@ body{
 .content .text ul li .fa-pinterest:hover{
     color: #cb2027;
 }
+
 .content .text ul li .fa-paypal:hover{
     color: #003087;
 }
@@ -143,32 +159,48 @@ body{
 .content .text ul li .fa-trello:hover{
     color: #0079bf;
 }
-/*Animationen*/
+.content .text ul li .fa-git-square:hover{
+    color: #f1502f;
+}
+.content .text ul li .fa-git-square:hover{
+    color: #f1502f;
+}
+.content .text ul li .fa-book:hover{
+    color: #003087;
+}
+.content .text ul li .fa-cloud:hover{
+    color: #0082C9;
+}
+.content .text ul li .fa-xing:hover{
+    color: #026466;
+}
+
+/**/
 @keyframes fadein{
     from{
         opacity:0;
     }to{
-        opacity:1;
-    }
+         opacity:1;
+     }
 }
 @-moz-keyframes fadein{
     from{
         opacity:0;
     }to{
-        opacity:1;
-    }
+         opacity:1;
+     }
 }
 @-webkit-keyframes fadein{
     from{
         opacity:0;
     }to{
-        opacity:1;
-    }
+         opacity:1;
+     }
 }
 @-o-keyframes fadein{
     from{
         opacity:0;
     }to{
-        opacity:1;
-    }
+         opacity:1;
+     }
 }

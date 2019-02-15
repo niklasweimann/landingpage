@@ -1,0 +1,30 @@
+@media screen and (max-width: 823px){
+    .content{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 715px){
+    .content .text ul .linkHeadline{
+        display: none;
+    }
+}
+@media screen and (max-height: 650px){
+    .content .text .list2{
+        display: none;
+    }
+}
+@media screen and (max-height: 550px){
+    .content .text .list1{
+        display: none;
+    }
+}
+@media screen and (max-height: 530px), screen and (max-width: 310px){
+    .content {
+        height: 50%;
+    }
+}
+@media screen and (max-height: 480px), screen and (max-width: 310px){
+    .content {
+        height: 75%;
+    }
+}

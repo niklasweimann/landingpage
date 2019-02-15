@@ -1,7 +1,5 @@
-# Landingpage 1.0.5
-Meine aktuelle Landingpage für meine Website.
-
-Die Datei fontawesome-all.min.js wurde aus dem Quelltext der index.html entfernt.
+# Landingpage 1.1.0
+My current landingpage. Visit [https://niklas-weimann.de](https://niklas-weimann.de)
 
 ## Lizenzen
 
