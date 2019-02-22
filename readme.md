@@ -1,7 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
-# Landingpage 1.1.0
+# Landingpage 1.1.2
 My current landingpage. Visit [https://niklas-weimann.de](https://niklas-weimann.de)
 
 ## Lizenzen
